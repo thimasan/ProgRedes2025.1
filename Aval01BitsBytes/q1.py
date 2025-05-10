@@ -17,4 +17,5 @@ print("Número de hosts: ", hosts_Net)
 ip = 0
 for num in strIp.split('.'):
     ip = (ip << 8) | int(num)
+    print(ip)
 print("IP: ", ip)
