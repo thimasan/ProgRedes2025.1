@@ -21,3 +21,5 @@ def int_to_ip_str(ip_int): #Converte o número inteiro de volta para uma string 
         ip_int = ip_int >> 8 # Desloca 8 bits para a direita
     return '.'.join(octetos)
 
+print(ip_str_to_int(ip_str)) # Converte o IP em string para inteiro
+print(int_to_ip_str(ip_str_to_int(ip_str))) # Converte o IP inteiro de volta para string
